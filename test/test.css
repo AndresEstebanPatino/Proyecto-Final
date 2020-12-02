@@ -63,3 +63,45 @@
     right: 2vh;
     bottom: 3vh;
 }
+
+h1 {
+    position: absolute;
+    font-family: 'Scada';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 4vh;
+    line-height: 5vh;
+    top: 10vh;
+    left: 4vh;
+}
+
+h2 {
+    position: absolute;
+    font-family: 'Scada';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2vh;
+    line-height: 3vh;
+    color: #C1C1C1;
+    top: 14.5vh;
+    left: 4vh;
+}
+
+p {
+    position: absolute;
+    font-family: 'Scada';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2vh;
+    color: #000000;
+    top: 1vh;
+    left: 1vh;
+}
+
+.menu {
+    height: 4vh;
+    width: 3vh;
+    position: relative;
+    left: 92%;
+    top: 1vh;
+}
