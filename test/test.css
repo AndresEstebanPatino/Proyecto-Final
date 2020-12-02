@@ -15,7 +15,7 @@
 }
 
 .containerarticulos {
-    height: 35vh;
+    height: 55vh;
     width: 100%;
     background-color: GREY;
 }
@@ -24,7 +24,8 @@
     height: 15vh;
     width: 100%;
     background: white;
-    position: relative;
+    position: sticky;
+    bottom: 0px;
     display: flex;
     justify-content: space-around;
     align-items: center;
