@@ -61,7 +61,8 @@
     width: 5vh;
     height: 4vh;
     right: 2vh;
-    bottom: 3vh;
+    bottom: 3.5vh;
+    mix-blend-mode: screen;
 }
 
 h1 {
