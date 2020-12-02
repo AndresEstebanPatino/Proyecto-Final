@@ -44,10 +44,8 @@
 }
 
 .imgboton {
-    width: 5px;
-    height: 5px;
-    border-radius: 50px;
-    top: 25px;
+    width: 1vh;
+    top: 5vh;
     position: absolute;
     display: flex;
 }
