@@ -10,7 +10,7 @@ header {
     position: fixed;
 }
 
-h1 {
+.maintitulo {
     position: absolute;
     font-family: 'Scada';
     font-style: normal;
@@ -21,7 +21,7 @@ h1 {
     left: 4vh;
 }
 
-h2 {
+.textotitulo {
     position: absolute;
     font-family: 'Scada';
     font-style: normal;
@@ -33,7 +33,7 @@ h2 {
     left: 4vh;
 }
 
-p {
+.empresa {
     position: absolute;
     font-family: 'Scada';
     font-style: normal;
