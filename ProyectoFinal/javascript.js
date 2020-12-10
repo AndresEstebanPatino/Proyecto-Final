@@ -58,9 +58,15 @@ function addCantidad (event) {
 
 document.querySelector('.icoSend').addEventListener('click', nuevaPag);
 function nuevaPag(event) {
+  let header = document.getElementById(bodyHtml).innerHTML = `
+    <div></div>
+  
+  `
+  
   let listaCarrito = "";
   for (let i = 0; i < productosCarrito.length; i++) {
     listaCarrito += `
+      <div class="platos">
         <div class="infoPlatos">
           <img src="${productosCarrito[i].imagen}">
           <div class="infoDetalle">
@@ -74,9 +80,11 @@ function nuevaPag(event) {
             </div>
           </div>
         </div>
+      </div>
     `;
   }
-  document.getElementById('bodyHtml').innerHTML = listaCarrito;
+  //document.getElementById('bodyHtml').innerHTML = listaCarrito;
+  document.querySelector('.platos').innerHTML = listaCarrito;
 }
 
 
