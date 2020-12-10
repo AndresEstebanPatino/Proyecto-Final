@@ -1,0 +1,80 @@
+        <div class="infoPlatos">
+          <img src="./img/comida-rapida-casera.jpg" />
+          <div class="infoDetalle">
+            <p class="price">$52.00</p>
+            <h4>Chicken Veggi Salad</h4>
+            <p>With cheese souse</p>
+            <div class="counter">
+              <button class="counterLefting"  onclick="restar()">-</button>
+              <p id="contador"></p>
+              <button class="counterRight" onclick="sumar()">+</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="infoPlatos">
+          <img src="./img/comida-rapida-casera.jpg" />
+          <div class="infoDetalle">
+            <p class="price">$23.00</p>
+            <h4>Mutton Curry</h4>
+            <p>With basmati rice</p>
+            <div class="counter">
+              <button class="counterLeft">-</button>
+              <p>0</p>
+              <button class="counterRight">+</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="infoPlatos">
+          <img src="./img/comida-rapida-casera.jpg" />
+          <div class="infoDetalle">
+            <p class="price">$21.00</p>
+            <h4>French Fry</h4>
+            <p>With beef bacon</p>
+            <div class="counter">
+              <button class="counterLeft">-</button>
+              <p>02</p>
+              <button class="counterRight">+</button>
+            </div>
+          </div>
+        </div>
+        <div class="infoPlatos">
+          <img src="./img/comida-rapida-casera.jpg" />
+          <div class="infoDetalle">
+            <p class="price">$52.00</p>
+            <h4>Chicken Veggi Salad</h4>
+            <p>With cheese souse</p>
+            <div class="counter">
+              <button class="counterLeft">-</button>
+              <p>02</p>
+              <button class="counterRight">+</button>
+            </div>
+          </div>
+        </div>
+        <div class="infoPlatos">
+          <img src="./img/comida-rapida-casera.jpg" />
+          <div class="infoDetalle">
+            <p class="price">$52.00</p>
+            <h4>Chicken Veggi Salad</h4>
+            <p>With cheese souse</p>
+            <div class="counter">
+              <button class="counterLeft">-</button>
+              <p>02</p>
+              <button class="counterRight">+</button>
+            </div>
+          </div>
+        </div>
+        <div class="infoPlatos">
+          <img src="./img/comida-rapida-casera.jpg" />
+          <div class="infoDetalle">
+            <p class="price">$52.00</p>
+            <h4>Chicken Veggi Salad</h4>
+            <p>With cheese souse</p>
+            <div class="counter">
+              <button class="counterLeft">-</button>
+              <p>02</p>
+              <button class="counterRight">+</button>
+            </div>
+          </div>
+        </div>

@@ -227,9 +227,10 @@
       padding: 1%;
       text-align: center;
     }
+    
     .categorias { 
       width: auto;
-      margin: auto;
+      margin: auto; 
     }
   
     .contenedorCategorias {
