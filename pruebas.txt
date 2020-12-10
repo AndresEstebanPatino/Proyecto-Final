@@ -78,3 +78,22 @@
             </div>
           </div>
         </div>
+
+
+        function getObjet(objeto){
+ 
+  let indice = objeto.dataset.id; 
+
+  if (objeto.className === "counterLeft") {
+    if (productos[indice].cantidad > 0) {
+      productos[indice].cantidad--;
+
+      pintarProductos();
+    }
+  }
+  if (objeto.className === "counterRight") {
+    productos[indice].cantidad++;
+    pintarProductos();
+  }
+  console.log(objeto)
+}
