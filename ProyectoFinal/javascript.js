@@ -72,6 +72,7 @@ function nuevaPag() {
   for (let i = 0; i < productosCarrito.length; i++) {
 
     listaCarrito += `
+      <div class="platos">
         <div class="infoPlatos">
           <img src="${productosCarrito[i].imagen}">
           <div class="infoDetalle">
