@@ -97,3 +97,15 @@
   }
   console.log(objeto)
 }
+
+
+
+function addToCart(plato){
+  for (let i = 0; i < productosCarrito.length; i++){
+    if(productosCarrito[i].nombre !== plato.nombre){
+      productosCarrito.push()
+    }
+    return;
+  }
+
+}

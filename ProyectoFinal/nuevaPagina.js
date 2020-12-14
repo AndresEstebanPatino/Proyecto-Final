@@ -3,7 +3,7 @@ let productosCarrito = [];
 
 document.querySelector('.icoSend').addEventListener('click', nuevaPag);
 
-function nuevaPag() {
+function nuevaPag(e) {
 
   let listaCarrito = "";
   let añadirCarrito ="";
@@ -11,6 +11,7 @@ function nuevaPag() {
   añadirCarrito+=`<div id="carrito" class="carrito">
                        <button  class="botonComprar"> < </button>
                        </div>`;
+                       
   headerCarrito+=`<div class="header">
                       <button  class="botonRegreso" onclick="window.location.href='test.html'"> < </button>
                       <h1 class="headerCarrito">My cart</h1>
@@ -34,9 +35,10 @@ function nuevaPag() {
             </div>
           </div>
       `;  
-
+      if(i = 1){
+        break;
+      } 
     }
-
 
   document.querySelector('.slider').innerHTML = listaCarrito;
   document.getElementById('header').innerHTML = headerCarrito;
