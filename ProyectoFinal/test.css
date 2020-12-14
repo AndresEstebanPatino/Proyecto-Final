@@ -272,6 +272,50 @@
     font-size: 20px;
     color: black;
   }
+  .contenedorCompra{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap:10px;
+  }
+  .headerCompra{
+    width: 100%;
+    display: flex;
+    justify-content: s;
+  }
+  .headerGrid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px auto;
+    grid-column-gap: 10px 20px 10px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    justify-content: space-around;
+  }
+  .colCompra{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .espaciado{
+    justify-content: space-between;
+  }
+  .imagenCompra{
+    width: 150px;
+  }
+  .valorCompra{
+    width: 35px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(197, 197, 197);
+  }
+  .botonCompra{
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
   @media screen and (min-width: 768px) {
     main {
       display: flex;

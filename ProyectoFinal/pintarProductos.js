@@ -1,4 +1,4 @@
-function pintarProductos() {
+/*function pintarProductos() {
   let listaPlatos = "";
   for (let i = 0; i < productos.length; i++) {
     listaPlatos += `
@@ -21,4 +21,5 @@ function pintarProductos() {
   document.querySelector(".platos").innerHTML = listaPlatos;
 }
 
-pintarProductos();
+pintarProductos();*/
+kn;

@@ -1,4 +1,4 @@
-const productos = [
+/*const productos = [
   {
     id: 1,
     precio: 52.0,
@@ -63,4 +63,5 @@ const productos = [
     cantidad: 0,
     imagen: "./img/desayuno.jpg",
   },
-];
+];*/
+h;

@@ -1,4 +1,4 @@
-let productosCarrito = [];
+/*let productosCarrito = [];
 
 document.querySelector(".icoSend").addEventListener("click", nuevaPag);
 
@@ -44,4 +44,5 @@ function nuevaPag() {
   document.querySelector(".slider").innerHTML = listaCarrito;
   document.getElementById("header").innerHTML = headerCarrito;
   document.getElementById("footer").innerHTML = footerCarrito;
-}
+}*/
+vvv;

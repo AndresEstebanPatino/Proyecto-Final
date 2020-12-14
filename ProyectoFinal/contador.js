@@ -1,4 +1,4 @@
-let hola = document.querySelector(".platos");
+/*let hola = document.querySelector(".platos");
 hola.addEventListener("click", addCantidad);
 
 function getProducto(array, id) {
@@ -31,4 +31,5 @@ function addCantidad(event) {
     }
   }
   console.log(productosCarrito);
-}
+}*/
+s;
