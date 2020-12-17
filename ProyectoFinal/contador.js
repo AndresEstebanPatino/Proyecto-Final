@@ -1,288 +1,45 @@
-let hola = document.querySelector(".platos");
-hola.addEventListener("click", addCantidad);
+let sumarProducto = document.querySelector(".platos");
+sumarProducto.addEventListener("click", addCantidad);
 
-function addCantidad (event) {
-  const indice = event.target.dataset.id;
+function getProducto(array, id) {
+  let producto = array.find(function (p) {
+    return p.id == id;
+  });
+  return producto;
+}
+function addCantidad(event) {
+  const id = event.target.dataset.id;
+  const producto = getProducto(productos, id);
+
   if (event.target.className === "counterLeft") {
-    if (productos[indice].cantidad > 0) {
-      productos[indice].cantidad--;
+    if (producto.cantidad > 0) {
+      producto.cantidad--;
+
+      pintarProductos();
+      addProductoToCarrito(producto);
+    
     }
+          console.log(productosCarrito);
   }
   if (event.target.className === "counterRight") {
-    if (productos[indice].cantidad < 10){
-      productos[indice].cantidad++;
-      addToCart(productos[indice])
-      event.target.parentElement.querySelector('p').innerHTML = productos[indice].cantidad;
+    if (producto.cantidad < 10) {
+      producto.cantidad++;
+      pintarProductos();
+    
+    
+      const objectInCart = productosCarrito.find(function(item){
+        return item.id == id
+        
+      });
+      console.log(objectInCart);
+      
+      if (objectInCart === undefined) {
+        productosCarrito.push(producto);
+      }
       return;
+      
     }
-  } 
-console.log(productosCarrito);
-} 
-
-function addToCart(plato){
-  for (let i = 0; i < productosCarrito.length; i++){
-    if(productosCarrito[i].nombre !== plato.nombre){
-      productosCarrito.push(plato)
-    }
-    return;
+    console.log(productosCarrito);
   }
+
 }
-  addToCart()
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  

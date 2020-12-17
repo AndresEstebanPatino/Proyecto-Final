@@ -9,10 +9,9 @@
   }
   
   header {
+    width: 100%;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    align-items: flex-end;
   }
 
   
@@ -207,17 +206,26 @@
     filter: invert();
   }
 
-  
-  .carrito{
+.footerNewPag{
+    background-color: rgb(255, 166, 0);
     width: 100%;
-    height: 200px;
-    background-color: #ff6b00;
-    border-radius: 20px;
-    margin-bottom: 0px;
-
-  }
-
-
+    height: 250px;
+    border-radius: 50px 50px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.totalLista{
+  width: 400px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.total{
+    margin: 20px 0px;
+    display: flex;
+    justify-content: space-around;
+}
   .headerCarrito{
     width: 100%;
     height: 10vh;
@@ -227,9 +235,14 @@
 
   .botonComprar{
     width: 70%;
-    height: 30px;
+    height: 40px;
     background-color: #ffffff;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    font-size: inherit;
+    border-radius: 10px;
   }
 
   .botonRegreso{
@@ -244,7 +257,31 @@
     margin-top: 20px;
     margin-left: 25px;
   }
+  .contadorRedondo{
+    width: 20px;
+    height: 20px;
+    background-color: rgba(55,215,206,.7);
+    border-radius: 20px;
+    position: absolute;
+    right: 7px;
+    z-index: 1;
+    filter: drop-shadow(3px 3px 7px black);
+  }
+  .numeroCont{
+    font-size: 20px;
+    color: black;
+  }
   
+  .headerBotones{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .botonBasura img{
+    width: 30px;
+    height: 30px;
+    margin-right: 0px;
+  }
   @media screen and (min-width: 768px) {
     main {
       display: flex;
