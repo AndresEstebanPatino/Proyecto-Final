@@ -12,7 +12,7 @@ function nuevaPag() {
                             <h3>Total: </h3>
                             <p>0</p>
                             </div>
-                            <button  class="botonComprar">Enviar Pedido</button>
+                            <button  class="botonComprar"><a href="https://api.whatsapp.com/send?phone=34662214099&text=hola,%20¿qué%20tal%20estás?">Enviar Pedido</a></button>
                           </div>
                        </div>`;
   headerCarrito += `<div class="header">

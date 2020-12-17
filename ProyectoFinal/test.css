@@ -271,7 +271,6 @@
     font-size: 20px;
     color: black;
   }
-<<<<<<< HEAD
   
   .headerBotones{
     width: 100%;
@@ -282,7 +281,7 @@
     width: 30px;
     height: 30px;
     margin-right: 0px;
-=======
+  }
   .contenedorCompra{
     display: grid;
     grid-template-columns: auto auto auto;
@@ -326,7 +325,6 @@
     color: white;
     border: none;
     border-radius: 5px;
->>>>>>> bcf2d73b3c3ccbc594c7d75c5cb64be956f82ee5
   }
   @media screen and (min-width: 768px) {
     main {
