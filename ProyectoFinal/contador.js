@@ -16,7 +16,6 @@ function addCantidad(event) {
       producto.cantidad--;
 
       pintarProductos();
-      addProductoToCarrito(producto);
     
     }
           console.log(productosCarrito);
@@ -31,7 +30,6 @@ function addCantidad(event) {
         return item.id == id
         
       });
-      console.log(objectInCart);
       
       if (objectInCart === undefined) {
         productosCarrito.push(producto);

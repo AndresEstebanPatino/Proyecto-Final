@@ -1,4 +1,6 @@
+const numeroEmpresa = 34662214099;
 let productosCarrito = [];
+let pedidoFinal = ["Pedido: "]
 
 document.querySelector(".icoSend").addEventListener("click", nuevaPag);
 
@@ -12,7 +14,7 @@ function nuevaPag() {
                             <h3>Total: </h3>
                             <p>0</p>
                             </div>
-                            <button  class="botonComprar"><a href="https://api.whatsapp.com/send?phone=34662214099&text=hola,%20¿qué%20tal%20estás?">Enviar Pedido</a></button>
+                             <button  class="botonComprar" onClick="enviarPedido()">Enviar Pedido</button>
                           </div>
                        </div>`;
   headerCarrito += `<div class="header">
@@ -49,7 +51,16 @@ function nuevaPag() {
   document.getElementById("header").innerHTML = headerCarrito;
   document.getElementById("footer").innerHTML = footerCarrito;
 
-  let convertirArray = productosCarrito.join();
-  console.log(convertirArray);
 }
 
+
+function enviarPedido(){
+  enviarMensaje();
+  window.location.href ="https://api.whatsapp.com/send/?phone=" + numeroEmpresa + "&text="+ pedidoFinal +"&app_absent=0";
+}
+function enviarMensaje() {
+  for (let i = 0; i < productosCarrito.length; i++){
+        let textopedido = productosCarrito[i].nombre + "x(" + productosCarrito[i].cantidad + ") --" 
+        pedidoFinal += textopedido;
+  }
+}
