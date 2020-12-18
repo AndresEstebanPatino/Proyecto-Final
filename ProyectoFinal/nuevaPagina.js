@@ -18,7 +18,7 @@ function nuevaPag() {
                           </div>
                        </div>`;
   headerCarrito += `<div class="header">
-                        <button  class="botonRegreso" onclick="window.location.href='test.html'"> < </button>
+                        <button  class="botonRegreso" onclick="window.location.href='index.html'"> < </button>
                         <button class="botonBasura"><img src="img/basurero.png"></button>
                       <h1 class="headerCarrito">My cart</h1>
                      </div>`;
